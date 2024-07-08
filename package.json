@@ -1,0 +1,32 @@
+{
+  "name": "server-ts-vercel",
+  "version": "3.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@types/pg": "^8.11.6",
+    "@types/qs": "^6.9.15",
+    "@types/react": "^18.3.3",
+    "@vercel/node": "^3.2.0",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "@beetcb/sstore": "^0.3.0",
+    "@neondatabase/serverless": "^0.7.2",
+    "js-md5": "^0.8.3",
+    "next": "^14.2.4",
+    "pino": "^8.21.0",
+    "qs": "^6.12.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
